@@ -1,112 +1,232 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>شركة تجميع المعادن</title>
-  <link rel="stylesheet" href="assets/ui/styles.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>شركة تجميع المعادن</title>
+    <link rel="stylesheet" href="assets/ui/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="main-header">
-        <nav class="nav-container">
-          <div class="logo">
-            <img src="assets/img/logo.png" alt="شعار الشركة">
-          </div>
-          <ul class="nav-links" id="nav-links">
-            <li><a href="#">الرئيسية</a></li>
-            <li><a href="#">الخدمات والمنتجات</a></li>
-            <li><a href="#">شركاء النجاح</a></li>
-            <li><a href="#">المشاريع</a></li>
-            <li><a href="#">من نحن</a></li>
-            <li><a href="#">مركز الإعلام</a></li>
-            <li><a href="#">الوظائف</a></li>
-            <li><a href="#" id="lang-toggle">English</a></li>
+      <nav
+        class="nav nav-container navbar-expand-lg navbar-light bg-white align-items-center"
+      >
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/img/logo.png" alt="شعار الشركة" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-links"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-links">
+          <ul class="nav-links m-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">خدمتنا ومنتجاتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="partners.html">شركاء النجاح</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">المشاريع</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mediaCenter.html">مركز الإعلام</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="callUs.html">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jobs.html">الوظائف</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="lang-toggle">English</a>
+            </li>
             <li>
-              <button id="theme-toggle" class="theme-button">
-                🌞
-              </button>
+              <button id="theme-toggle" class="theme-button">🌞</button>
             </li>
           </ul>
-        </nav>
-      </header>
-      
-      <div class="about-hero">
-        <div class="about-hero-content">
-          <h1> عن </h1>
-          <div class="about-experience">
-            <div class="experience-badge">
-              <h2>+25</h2>
-              <p>سنوات خبرة</p>
-            </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="hero-section mb-5">
+          <div class="hero-content">
+            <img
+              src="assets/img/mainImg.png"
+              alt="mainImg"
+              class="hero-image"
+            />
+            <img
+              src="assets/img/mainImg2.png"
+              alt="mainImg2"
+              class="hero-image2"
+            />
           </div>
         </div>
-        <div class="about-hero-image">
-          <img src="assets/img/Frame 188.png" alt="موقع بناء">
+      </section>
+      <section>
+        <div class="about-hero row">
+          <div class="about-content col-12 col-md-6 pl-5">
+            <h2>عن</h2>
+            <h2>شركة تجميع المعادن</h2>
+            <p class="about-description">
+              شركة تجميع المعادن شركة سعودية متخصصة و رائدة في مجال إعادة تدوير
+              المعادن بشكل آمن و فعال لتدوير المعادن بطريقة صديقة للبيئة و تعمل
+              في عدة مدن في المملكة العربية السعودية و تقدم خدماتها في داخل
+              المملكة و خارجها. تقدم الشركة منذ أكثر من 25 عاماً خدمة مساعدة في
+              إدارة النفايات و إعادة تدوير المعادن حيث يتم جمع المعادن المستهلكة
+              و التالفة و معالجتها و تصنيعها و تحويلها إلى منتجات جديدة من أجل
+              الحد من تلوثها و تقليل المخاطر و استخدامها في مجال إعادة التدوير
+              لمنتج جديد.
+            </p>
+          </div>
+          <div class="about-hero-content">
+            <div class="about-experience">
+              <div class="experience-badge">
+                <h2>+25</h2>
+                <p>سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-hero-image col-12 col-md-6">
+            <img src="assets/img/Frame 188.png" alt="موقع بناء" />
+          </div>
         </div>
-      </div>
+      </section>
 
-      <section class="about-section">
-        <div class="about-container">
+      <section class="about-section-container">
+        <div class="about-section row">
+          <!-- <div class="about-container">
           <div class="about-content">
             <h2>شركة تجميع المعادن</h2>
             <p class="about-description">
-              شركة تجميع المعادن شركة سعودية متخصصة و رائدة في مجال إعادة تدوير المعادن بشكل آمن و فعال لتدوير المعادن بطريقة صديقة للبيئة و تعمل في عدة مدن في المملكة العربية السعودية و تقدم خدماتها في داخل المملكة و خارجها. تقدم الشركة منذ أكثر من 25 عاماً خدمة مساعدة في إدارة النفايات و إعادة تدوير المعادن حيث يتم جمع المعادن المستهلكة و التالفة و معالجتها و تصنيعها و تحويلها إلى منتجات جديدة من أجل الحد من تلوثها و تقليل المخاطر و استخدامها في مجال إعادة التدوير لمنتج جديد.
+              شركة تجميع المعادن شركة سعودية متخصصة و رائدة في مجال إعادة تدوير
+              المعادن بشكل آمن و فعال لتدوير المعادن بطريقة صديقة للبيئة و تعمل
+              في عدة مدن في المملكة العربية السعودية و تقدم خدماتها في داخل
+              المملكة و خارجها. تقدم الشركة منذ أكثر من 25 عاماً خدمة مساعدة في
+              إدارة النفايات و إعادة تدوير المعادن حيث يتم جمع المعادن المستهلكة
+              و التالفة و معالجتها و تصنيعها و تحويلها إلى منتجات جديدة من أجل
+              الحد من تلوثها و تقليل المخاطر و استخدامها في مجال إعادة التدوير
+              لمنتج جديد.
             </p>
           </div>
+          </div> -->
+          <div class="about-image col-12 col-md-6">
+            <img src="assets/img/img2.png" alt="موقع بناء" />
           </div>
-        </div>
-        
-        <div class="values-section">
-          <div class="values-container">
-            <div class="value-item">
-              <div class="value-icon">
-                <img src="assets/img/icone/Icon Container.png" alt="رؤيتنا">
+          <div class="values-section col-12 col-md-6">
+            <div class="values-container">
+              <div class="value-item">
+                <div class="value-icon">
+                  <img src="assets/img/icone/Icon Container.png" alt="رؤيتنا" />
+                </div>
+                <div class="value-text">
+                  <h3>رؤيتنا</h3>
+                  <p>
+                    أن نكون الشركة الرائدة في تجميع وإعادة تدوير المعادن في
+                    المنطقة (الخليج والشرق الأوسط) من خلال تقديم أفضل خدمة
+                    متكاملة للعملاء في المحافظة على البيئة وتحقيق الاستدامة.
+                  </p>
+                </div>
               </div>
-              <h3>رؤيتنا</h3>
-              <p>أن نكون الشركة الرائدة في تجميع وإعادة تدوير المعادن في المنطقة (الخليج والشرق الأوسط) من خلال تقديم أفضل خدمة متكاملة للعملاء في المحافظة على البيئة وتحقيق الاستدامة.</p>
-            </div>
-            
-            <div class="value-item">
-              <div class="value-icon">
-                <img src="assets/img/icone/Icon Container (2).png" alt="رسالتنا">
-              </div>
-              <h3>رسالتنا</h3>
-              <p>نتعامل مع المنشآت الصناعية وشركاء النجاح من خلال تقديم خدمات متميزة للمعادن تواكب التطور الصناعي والأمني وتساهم في تحقيق التنمية وتطوير المنتجات من أجل المحافظة على البيئة.</p>
-            </div>
-            
-            <div class="value-item">
-              <div class="value-icon">
-                <img src="assets/img/icone/Goal Icon.png" alt="قيمنا">
-              </div>
-              <h3>قيمنا</h3>
-              <p>نحرص على تقديم الأمان من خلال إعادة التدوير والاستخدام الأمثل للموارد.</p>
-            </div>
-          </div>
-        </div>
-        
 
-        <div class="stats-section">
+              <div class="value-item">
+                <div class="value-icon">
+                  <img
+                    src="assets/img/icone/Icon Container (2).png"
+                    alt="رسالتنا"
+                  />
+                </div>
+                <div class="value-text">
+                  <h3>رسالتنا</h3>
+                  <p>
+                    نتعامل مع المنشآت الصناعية وشركاء النجاح من خلال تقديم خدمات
+                    متميزة للمعادن تواكب التطور الصناعي والأمني وتساهم في تحقيق
+                    التنمية وتطوير المنتجات من أجل المحافظة على البيئة.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value-item">
+                <div class="value-icon">
+                  <img src="assets/img/icone/Goal Icon.png" alt="قيمنا" />
+                </div>
+                <div class="value-text">
+                  <div class="line"></div>
+                  <h3>قيمنا</h3>
+                  <p>
+                    نحرص على تقديم الأمان من خلال إعادة التدوير والاستخدام
+                    الأمثل للموارد.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stats-section">
+        <div>
           <div class="stats-container">
             <div class="stat-item">
               <div class="stat-icon">
-                <img src="assets/img/icone/Company.png" alt="مشاريع أخرى">
+                <img src="assets/img/icone/Company.png" alt="مشاريع أخرى" />
               </div>
               <h3>+ 40</h3>
               <p>مشاريع أخرى</p>
             </div>
-            
+
             <div class="stat-item">
               <div class="stat-icon">
-                <img src="assets/img/icone/Wrecking ball.png" alt="مشاريع هدم وإزالة">
+                <img
+                  src="assets/img/icone/Wrecking ball.png"
+                  alt="مشاريع هدم وإزالة"
+                />
               </div>
               <h3>+ 10</h3>
               <p>مشاريع هدم و إزالة</p>
             </div>
-            
+
             <div class="stat-item">
               <div class="stat-icon">
-                <img src="assets/img/icone/Project.png" alt="شركة تابعة">
+                <img src="assets/img/icone/Project.png" alt="شركة تابعة" />
               </div>
               <h3>+ 40</h3>
               <p>شركة تابعة</p>
@@ -114,16 +234,308 @@
           </div>
         </div>
       </section>
-       
-<main>
-  <section class="services-section">
-    <h1 id="services-title" data-en="Our Services" data-ar="خدماتنا">خدماتنا</h1>
-  </section>
-</main>
+      <section class="newest-products">
+        <div class="newest-products-container">
+          <h2>أحدث</h2>
+          <h2>الأعلانات</h2>
+          <div class="products-list gap-3 flex-nowrap">
+            <div class="product-item">
+              <div class="p-2">
+                <div>
+                  <img
+                    src="assets/img/product-logo.png"
+                    alt="منتج 1"
+                    class="w-100"
+                  />
+                </div>
+                <div class="p-3">
+                  <div class="date">
+                    <p>
+                      <img src="assets/img/dateIcon.png" alt="" /> March 10,
+                      2025
+                    </p>
+                  </div>
+                  <div class="text">
+                    <p>إعلان شركة تجميع المعادن العمل مع جهه المقولن العرب</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="more-link d-flex justify-content-between align-items-center"
+              >
+                <a href="#">المزيد</a>
+                <i class="bi bi-arrow-left-short"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="p-2">
+                <div>
+                  <img
+                    src="assets/img/product-logo.png"
+                    alt="منتج 1"
+                    class="w-100"
+                  />
+                </div>
+                <div class="p-3">
+                  <div class="date">
+                    <p>
+                      <img src="assets/img/dateIcon.png" alt="" />March 10, 2025
+                    </p>
+                  </div>
+                  <div class="text">
+                    <p>إعلان شركة تجميع المعادن العمل مع جهه المقولن العرب</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="more-link d-flex justify-content-between align-items-center"
+              >
+                <a href="#">المزيد</a>
+                <i class="bi bi-arrow-left-short"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="p-2">
+                <div>
+                  <img
+                    src="assets/img/product-logo.png"
+                    alt="منتج 1"
+                    class="w-100"
+                  />
+                </div>
+                <div class="p-3">
+                  <div class="date">
+                    <p>
+                      <img src="assets/img/dateIcon.png" alt="" />March 10, 2025
+                    </p>
+                  </div>
+                  <div class="text">
+                    <p>إعلان شركة تجميع المعادن العمل مع جهه المقولن العرب</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="more-link d-flex justify-content-between align-items-center"
+              >
+                <a href="#" class="">المزيد</a>
+                <i class="bi bi-arrow-left-short"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newest-news">
+        <div class="newest-products-container">
+          <h2>أحدث</h2>
+          <h2>الأخبار</h2>
+          <div class="news-list gap-3 flex-nowrap">
+            <div class="news-item">
+              <div class="position-relative">
+                <img src="assets/img/steel.png" alt="منتج 1" class="w-100" />
+                <div
+                  class="more-link-news d-flex justify-content-between align-items-center position-absolute bottom-0 w-100"
+                >
+                  <a href="#">المزيد</a>
+                  <p>واير</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="position-relative">
+                <img src="assets/img/steel.png" alt="منتج 1" class="w-100" />
+                <div
+                  class="more-link-news d-flex justify-content-between align-items-center position-absolute bottom-0 w-100"
+                >
+                  <a href="#">المزيد</a>
+                  <p>واير</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="position-relative">
+                <img src="assets/img/steel.png" alt="منتج 1" class="w-100" />
+                <div
+                  class="more-link-news d-flex justify-content-between align-items-center position-absolute bottom-0 w-100"
+                >
+                  <a href="#">المزيد</a>
+                  <p>واير</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="position-relative">
+                <img src="assets/img/steel.png" alt="منتج 1" class="w-100" />
+                <div
+                  class="more-link-news d-flex justify-content-between align-items-center position-absolute bottom-0 w-100"
+                >
+                  <a href="#">المزيد</a>
+                  <p>واير</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<script src="assets/js/en.js"></script>
-<script src="assets/js/ar.js"></script>
-<script src="assets/js/script.js"></script>
+      <section class="stats-section">
+        <h2>شركاء</h2>
+        <h2>النجاح</h2>
+        <div>
+          <div class="stats-container">
+            <div class="stat-item">
+              <div class="partner-img-container">
+                <img src="assets/img/aramco.png" alt="aramco" />
+              </div>
+            </div>
 
-</body>
+            <div class="stat-item">
+              <div class="partner-img-container">
+                <img src="assets/img/elraghySteel.png" alt="elraghySteel" />
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="partner-img-container">
+                <img src="assets/img/elkrianGroup.png" alt="elkrianGroup" />
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="partner-img-container">
+                <img
+                  src="assets/img/soudiElectricCompany.png"
+                  alt="soudiElectricCompany"
+                />
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="partner-img-container">
+                <img src="assets/img/marako.png" alt="marako" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center justify-content-between gap-4"
+        >
+          <div class="d-flex flex-column justify-content-start w-100 w-md-50">
+            <h2>اتصل بنا</h2>
+            <h2>تواصل معنا</h2>
+            <form class="d-flex flex-column gap-3 mt-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder=" الاسم الكامل"
+                aria-label="الاسم"
+              />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="البريد الإلكتروني"
+                aria-label="البريد الإلكتروني"
+              />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="رقم التليفون"
+                aria-label="رقم التليفون"
+              />
+              <textarea
+                class="form-control"
+                placeholder="الرسالة"
+                aria-label="الرسالة"
+              ></textarea>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+          <div class="w-100 w-md-50 d-none d-sm-block">
+            <img
+              src="assets/img/contact-us-home-img.png"
+              class="w-100"
+              alt="تواصل معنا"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mccl-footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="/assets/img/footerLogo.png" alt="MCCL Logo" />
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a to="/">Home</a></li>
+              <li><a to="/membership">Membership</a></li>
+              <li><a to="/events">Events</a></li>
+              <li><a to="/about">About Us</a></li>
+              <li><a to="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Membership</h3>
+            <ul>
+              <li><a to="/membership/join">Join MCCL</a></li>
+              <li><a to="/membership/benefits">Benefits</a></li>
+              <li><a to="/membership/faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li>123 Tech Street, London</li>
+              <li class="d-flex gap-2">
+                <img src="assets/img/LinkedIn.png" alt="LinkedIn" />
+                <img src="assets/img/Vector (1).png" alt="tiktok" />
+                <img src="assets/img/Snapchat.png" alt="Snapchat" />
+                <img src="assets/img/X.png" alt="x" />
+                <img src="assets/img/Vector.png" alt="facebook" />
+                <img src="assets/img/Insta.png" alt="insta" />
+              </li>
+              <li>
+                <img
+                  src="assets/img/whatsup.png"
+                  class="whatsImg"
+                  alt="whatsup icon"
+                />
+                +44 20 1234 5678
+              </li>
+            </ul>
+            <!-- <div class="social-links">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="icon twitter"></i>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="icon linkedin"></i>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <a>الشروط والاحكام</a>
+          <a>سياسة الخصوصية</a>
+          <a>جميع حقوق محفوظة</a>
+        </div>
+        <!-- <p>&copy; 2025 Modern Computing Club of London. All rights reserved.</p> -->
+      </div>
+    </footer>
+    <script src="assets/js/en.js"></script>
+    <script src="assets/js/ar.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

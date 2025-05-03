@@ -17,6 +17,7 @@ const updateLanguage = () => {
     "projects", 
     "about_us", 
     "media_center", 
+    "contact_us",
     "careers"
   ];
 
