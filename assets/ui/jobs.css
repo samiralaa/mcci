@@ -131,6 +131,10 @@
     padding: 0 !important;
   }
   
+  .col-md-6{
+    width: 50% !important;
+  }
+  
   /* Footer */
   .mccl-footer {
     background: linear-gradient(

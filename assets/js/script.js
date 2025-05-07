@@ -48,3 +48,17 @@ themeToggle.addEventListener('click', () => {
 
 // Initialize
 updateLanguage();
+
+function showContent(idToShow, clickedH2) {
+  const divs = document.querySelectorAll('.content');
+  divs.forEach(div => {
+    div.style.display = div.id === idToShow ? 'block' : 'none';
+  });
+
+  // Remove active class from all h2s
+  const allH2s = document.querySelectorAll('h2');
+  allH2s.forEach(h2 => h2.classList.remove('active'));
+
+  // Add active class to clicked h2
+  clickedH2.classList.add('active');
+}
