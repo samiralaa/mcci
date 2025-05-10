@@ -46,6 +46,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--header-background);
 }
 
 .logo img {
@@ -94,6 +95,34 @@ body {
   --header-background: #1f1f1f;
   --header-link-color: #ffffff;
   --header-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+  background-color: #121212 !important;
+  color: #ffffff !important;
+
+  .navbar-toggler {
+    background-color: #fff !important;
+  }
+  .mccl-footer {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1),
+      rgba(1, 102, 53, 0.1)
+    );
+    color: white;
+    .footer-column h3 {
+      color: white;
+    }
+  }
+  .products-description{
+    color: #fff;
+  }
+  .objectives-section {
+    .content {
+      ul li {
+        color: #fff;
+      }
+    }
+  }
+  
 }
 
 /* hero-section */
@@ -242,7 +271,10 @@ section:nth-child(1) {
     rgba(1, 102, 53, 0.1)
   );
   color: black;
-  padding: 4rem 0 1rem;
+  padding: 4rem 1rem 0 1rem !important;
+  @media screen and (max-width: 768px) {
+    padding-top: 2rem !important;
+  }
 }
 
 .footer-content {
