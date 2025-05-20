@@ -18,11 +18,17 @@
   --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
+@font-face {
+  font-family: "SuisseIntlBold";
+  src: url("../fonts/SuisseIntl-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
   /* padding: 0 !important; */
   /* margin: 0 !important; */
-  font-family: "Teko", sans-serif !important;
+  font-family: 'SuisseIntlBold', sans-serif;
 }
 body {
   background-color: var(--background-color);
@@ -60,6 +66,10 @@ body {
   /* gap: 25px; */
   margin: 0;
   padding: 0;
+}
+.nav-link.active {
+  color: rgba(232, 164, 44, 1);
+  font-weight: bold !important;
 }
 
 .nav-links li {
@@ -161,6 +171,9 @@ section:nth-child(1) {
     border-bottom: 1px solid #000;
     color: #000;
   }
+}
+.content:nth-child(1) {
+  display: block;
 }
 .content {
   display: none;

@@ -1,91 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="assets/js/en.js"></script>
-    <script src="assets/js/ar.js"></script>
-</head>
-
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>شركة تجميع المعادن</title>
+    <link rel="stylesheet" href="assets/ui/mediaDetails.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="main-header">
-        <nav class="nav-container">
-          <div class="logo">
-            <img src="assets/img/logo.png" alt="Company Logo">
-          </div>
-          <ul class="nav-links" id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services & Products</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Media Center</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#" id="lang-toggle">العربية</a></li>
+      <nav
+        class="nav nav-container navbar-expand-lg navbar-light align-items-center"
+      >
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/img/logo.png" alt="شعار الشركة" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-links"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-links">
+          <ul class="nav-links m-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">خدمتنا ومنتجاتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="partners.html">شركاء النجاح</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">المشاريع</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mediaCenter.html">مركز الإعلام</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="callUs.html">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jobs.html">الوظائف</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="environment.html">البيئة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="lang-toggle">English</a>
+            </li>
             <li>
-              <button id="theme-toggle" class="theme-button">
-                🌞
-              </button>
+              <button id="theme-toggle" class="theme-button">🌙</button>
             </li>
           </ul>
-        </nav>
-      </header>
-
-    <!-- bannr image -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <img src="assets/img/environmentbannr.png" class="img-fluid" alt="Banner Image">
-            </div>
         </div>
-    </div>
+      </nav>
+    </header>
 
-
-    <!-- text -->
-    <div class="container my-5">
-        <div class="row align-items-center">
-            <!-- Image Left -->
-            <div class="col-md-5 mb-4 mb-md-0">
-                <img src="assets/img/environment.png" class="img-fluid" alt="Environment Image">
-            </div>
-
-            <!-- Text Right -->
-            <div class="col-md-7">
-                <p>
-                    At Metal Collection Company, we work with all our energy to achieve a clean environment through refining activities at all stages, raising awareness, and avoiding environmental pollution and the risks that may result from it.
-                </p>
-                <p>
-                    We are also committed at Metal Collection Company and Industrial Waste to working on environmentally friendly materials by recycling them and using them in new products.
-                </p>
-                <h5 class="fw-bold">The environmental and economic benefits of waste sorting include:</h5>
-                <ul>
-                    <li>Recycling waste helps preserve the environment from pollution and prevents the depletion of raw materials.</li>
-                    <li>Keeping the planet clean and safe for future generations.</li>
-                    <li>Reducing harmful environmental content resulting from raw materials.</li>
-                    <li>Reducing the energy consumption needed to reduce industrial waste resulting from production processes.</li>
-                    <li>Creating new job opportunities.</li>
-                </ul>
-            </div>
+    <main>
+      <section>
+        <div class="hero-section mb-5">
+          <div class="hero-content">
+            <img
+              src="assets/img/environmentbannr.png"
+              alt="mainImg"
+              class="hero-image"
+            />
+            <!-- <img
+              src="assets/img/mainImg2.png"
+              alt="mainImg2"
+              class="hero-image2"
+            /> -->
+          </div>
         </div>
-    </div>
+      </section>
 
-    <footer class="main-footer">
-        <div class="footer-container">
-            <p>Contact us: info@metalcollection.com | Follow us on social media</p>
-            <ul class="social-links">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
+      <section>
+        <div class="d-flex">
+          <div class="mb-lg-4 col-12 col-md-8">
+            <div class="project-info">
+              <h3>البيــــــئة</h3>
+            </div>
+            <div class="project-info">
+              <p>
+                في شركة تجميع المعادي نعمل بكل طاقتنا من اجل تحقيق بيئة نظيفة من
+                خلال نشاط الشركة في تجميع ووفرز و تدوير المعادن و تجنب و تقليل
+                التلوث البيئي و المخاطر علي الصحة العامة و كما نعلم أن تلك
+                النفايات و المخلفات تحتوي في الغالب علي مواد مصنوعة من البلاستيك
+                و الكرتون و الزجاج و المعادن التي يسهل إعادة تصنيعها و الاستفادة
+                منها مرة أخري
+              </p>
+            </div>
+            <div class="project-info">
+              <h3>و من فوائد فرز النفايات بيئيا و اقتصاديا ما يلي</h3>
+            </div>
+            <div class="project-info">
+              <p>
+                تساعد إعادة تدوير النفايات في الحافظ على البيئة و عدم التلوث
+                الهواء
+              </p>
+              <p>إبطاء تغير المناخ و تقليل الآثار البيئة للموارد</p>
+              <p>دعم المحتوي المحلى و التقليل من استيراد المواد الخام</p>
+              <p>المحافظة على الثروات الطبيعية للدولة</p>
+              <p>
+                التقليل من مشكلة الاحتباس الحراري نتجة تقليل انبعاثات الغازات
+                الناتجة عن حرق النفايات
+              </p>
+              <p>تقليل أماكن جمع النفايات</p>
+              <p>خلق فرص عمل جديدة</p>
+            </div>
+          </div>
+          <div class="d-none d-md-block col-md-4">
+            <img
+              src="assets/img/environment.png"
+              alt="environment"
+              class="environment-img w-100"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mccl-footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="/assets/img/footerLogo.png" alt="MCCL Logo" />
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a to="/">Home</a></li>
+              <li><a to="/membership">Membership</a></li>
+              <li><a to="/events">Events</a></li>
+              <li><a to="/about">About Us</a></li>
+              <li><a to="/contact">Contact</a></li>
             </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Membership</h3>
+            <ul>
+              <li><a to="/membership/join">Join MCCL</a></li>
+              <li><a to="/membership/benefits">Benefits</a></li>
+              <li><a to="/membership/faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li>123 Tech Street, London</li>
+              <li class="d-flex gap-2">
+                <img src="assets/img/LinkedIn.png" alt="LinkedIn" />
+                <img src="assets/img/Vector (1).png" alt="tiktok" />
+                <img src="assets/img/Snapchat.png" alt="Snapchat" />
+                <img src="assets/img/X.png" alt="x" />
+                <img src="assets/img/Vector.png" alt="facebook" />
+                <img src="assets/img/Insta.png" alt="insta" />
+              </li>
+              <li>
+                <img
+                  src="assets/img/whatsup.png"
+                  class="whatsImg"
+                  alt="whatsup icon"
+                />
+                +44 20 1234 5678
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <a>الشروط والاحكام</a>
+          <a>سياسة الخصوصية</a>
+          <a>جميع حقوق محفوظة</a>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+    <script src="assets/js/en.js"></script>
+    <script src="assets/js/ar.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

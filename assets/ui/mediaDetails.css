@@ -53,7 +53,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--header-background);
-
 }
 
 .logo img {
@@ -100,13 +99,13 @@ body {
 
 /* Dark Mode */
 .dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
   --background-color: #121212;
   --text-color: #ffffff;
   --header-background: #1f1f1f;
   --header-link-color: #ffffff;
   --header-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
-  background-color: #121212 !important;
-  color: #ffffff !important;
 
   .navbar-toggler {
     background-color: #fff !important;
@@ -121,6 +120,12 @@ body {
     .footer-column h3 {
       color: white;
     }
+  }
+  label {
+    color: white;
+  }
+  .desc p {
+    color: white;
   }
 }
 
@@ -158,36 +163,38 @@ section:nth-child(1) {
   padding: 0 !important;
 }
 
-
-.form-container{
-  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
-  padding: 50px 10px 50px 50px;
-  width: 70% !important;
-  border-radius: 10px;
+/* info section */
+label {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 5px;
+}
+.project-info {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  h3 {
+    font-size: 24px !important;
+  }
+}
+.project-info p {
+  font-size: 18px !important;
+  line-height: 40px;
   margin-bottom: 20px;
-  @media screen and (max-width: 768px) {
-    width: 100% !important;
-    padding: 20px !important;
-  }
-  @media screen and (max-width: 575px) {
-    padding: 10px !important;
-  }
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
 }
-.form{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  @media screen and (max-width: 575px) {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 768px) {
+  .project-info {
+    border-bottom: none;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    h3 {
+      font-size: 20px !important;
+    }
   }
-}
-.form-control {
-  background: rgba(1, 102, 53, 0.05) !important;
-}
-.form-btn{
-  background: rgba(1, 64, 53, 1) !important;
-  color: white !important;
-  width: 20% !important;
+  .project-info p {
+    font-size: 18px !important;
+    line-height: 30px;
+  }
 }
 
 /* Footer */

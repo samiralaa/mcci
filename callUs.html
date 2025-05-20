@@ -69,16 +69,19 @@
               <a class="nav-link" href="mediaCenter.html">مركز الإعلام</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="callUs.html">اتصل بنا</a>
+              <a class="nav-link active" href="callUs.html">اتصل بنا</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="jobs.html">الوظائف</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="environment.html">البيئة</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#" id="lang-toggle">English</a>
             </li>
             <li>
-              <button id="theme-toggle" class="theme-button">🌞</button>
+              <button id="theme-toggle" class="theme-button">🌙</button>
             </li>
           </ul>
         </div>
@@ -179,49 +182,66 @@
               </div>
             </div>
           </div>
-          <div class="d-flex flex-column justify-content-start">
-            <form class="d-flex flex-column gap-3 mt-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder=" الاسم الكامل"
-                aria-label="الاسم"
-              />
-              <input
-                type="email"
-                class="form-control"
-                placeholder="البريد الإلكتروني"
-                aria-label="البريد الإلكتروني"
-              />
-              <input
-                type="text"
-                class="form-control"
-                placeholder="رقم التليفون"
-                aria-label="رقم التليفون"
-              />
-              <select
-                type="text"
-                class="form-control"
-                placeholder="رقم التليفون"
-                aria-label="رقم التليفون"
-              >
-                <option value="0" selected disabled>الغرض من التواصل</option>
-                <option>مشاريع هدم و إزاله</option>
-                <option value="1">مزادات</option>
-                <option value="2">بيع</option>
-                <option value="3">شراء</option>
-                <option value="4">أخرى</option>
-              </select>
-              <textarea
-                class="form-control"
-                placeholder="الرسالة"
-                aria-label="الرسالة"
-              ></textarea>
-              <button type="submit" class="btn btn-primary">Send</button>
+
+          <div class="mb-4">
+            <form class="mt-3">
+              <div class="form-container">
+                <div class="form">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder=" الاسم الكامل"
+                    aria-label="الاسم"
+                  />
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="البريد الإلكتروني"
+                    aria-label="البريد الإلكتروني"
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="رقم التليفون"
+                    aria-label="رقم التليفون"
+                  />
+                  <select name="Gender" id="" class="form-control col-md-6">
+                    <option value="">الغرض من التواصل</option>
+                    <option value="مشاريع هدم و إزاله">مشاريع هدم و إزاله</option>
+                    <option value="مزادات">مزادات</option>
+                    <option value="بيع">بيع</option>
+                    <option value="شراء">شراء</option>
+                    <option value="أخري">أخري</option>
+                  </select>
+                  <textarea
+                    type="text"
+                    class="form-control col-md-6"
+                    placeholder=""
+                    aria-label=""
+                  ></textarea>
+                  
+                </div>
+              </div>
+              <button type="submit" class="btn form-btn">إرسال</button>
             </form>
+            <div class="d-flex flex-column gap-2 info mt-4">
+                <p>
+                  <img src="assets/img/Email Icon Container.png" alt="" />
+                  info@mccld.sa
+                </p>
+                <p>
+                  <img src="assets/img/Phone Icon Container.png" alt="" /> +966126084482
+                </p>
+                <p>
+                  <img src="assets/img/Location-Icon.png" alt="" /> الموقع
+                </p>
+              </div>
           </div>
         </div>
       </section>
+      <div>
+        <img src="assets/img/map.png" alt="map" class="map" />
+      </div>
     </main>
 
     <footer class="mccl-footer">

@@ -53,7 +53,7 @@ themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   isDarkMode = !isDarkMode;
   localStorage.setItem("theme", isDarkMode ? "dark-mode" : "");
-  themeToggle.textContent = isDarkMode ? "🌙" : "🌞";
+  themeToggle.textContent = isDarkMode ? "🌞" : "🌙";
 });
 
 // Initialize
